@@ -19,7 +19,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row items-center gap-8 bg-white/30 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20">
             <Avatar className="w-32 h-32 border-4 border-purple-500/20">
               <AvatarImage 
-                src="/path/to/your/picture.jpg" 
+                src="/mevin.jpg" 
                 alt="Mevin R" 
                 className="object-cover"
               />
