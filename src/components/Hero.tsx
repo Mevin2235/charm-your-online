@@ -13,10 +13,10 @@ const Hero = () => {
           className="text-center"
         >
           <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
-            Creative Developer
+            Mevin R
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Crafting digital experiences with passion and precision
+            Full Stack Web Developer
           </p>
           <button 
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

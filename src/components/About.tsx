@@ -17,10 +17,10 @@ const About = () => {
           </h2>
           <div className="bg-white/30 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              I'm a passionate web developer with a keen eye for design and a love for creating seamless user experiences. With expertise in modern web technologies, I bring ideas to life through clean code and creative solutions.
+              Hello! I'm Mevin R, a passionate Full Stack Web Developer specializing in creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life through clean code and creative solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+              I love turning complex problems into simple, beautiful, and intuitive interface designs. When I'm not coding, you can find me exploring new technologies and staying up-to-date with the latest web development trends.
             </p>
           </div>
         </motion.div>

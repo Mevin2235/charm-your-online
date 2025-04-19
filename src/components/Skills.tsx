@@ -7,22 +7,22 @@ const Skills = () => {
     {
       category: "Frontend",
       icon: Code,
-      items: ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+      items: ["React", "HTML", "CSS", "JavaScript"]
     },
     {
       category: "Backend",
       icon: LayoutDashboard,
-      items: ["Node.js", "Express", "PostgreSQL", "REST APIs"]
+      items: ["Node.js", "MongoDB", "REST APIs", "Express"]
     },
     {
       category: "Design",
       icon: Brush,
-      items: ["UI/UX", "Figma", "Adobe XD", "Responsive Design"]
+      items: ["UI/UX", "Figma", "Responsive Design", "Web Design"]
     },
     {
       category: "Tools",
       icon: Briefcase,
-      items: ["Git", "VS Code", "Docker", "AWS"]
+      items: ["VS Code", "Git", "GitHub", "Terminal"]
     }
   ];
 
