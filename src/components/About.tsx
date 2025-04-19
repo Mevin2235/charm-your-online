@@ -1,5 +1,6 @@
 
 import { motion } from "framer-motion";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
   return (
@@ -15,13 +16,23 @@ const About = () => {
           <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
             About Me
           </h2>
-          <div className="bg-white/30 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20">
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Hello! I'm Mevin R, a passionate Full Stack Web Developer specializing in creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life through clean code and creative solutions.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              I love turning complex problems into simple, beautiful, and intuitive interface designs. When I'm not coding, you can find me exploring new technologies and staying up-to-date with the latest web development trends.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 bg-white/30 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20">
+            <Avatar className="w-32 h-32 border-4 border-purple-500/20">
+              <AvatarImage 
+                src="/path/to/your/picture.jpg" 
+                alt="Mevin R" 
+                className="object-cover"
+              />
+              <AvatarFallback>MR</AvatarFallback>
+            </Avatar>
+            <div>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Hello! I'm Mevin R, a passionate Full Stack Web Developer specializing in creating dynamic and user-friendly web applications. With expertise in both frontend and backend technologies, I bring ideas to life through clean code and creative solutions.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I love turning complex problems into simple, beautiful, and intuitive interface designs. When I'm not coding, you can find me exploring new technologies and staying up-to-date with the latest web development trends.
+              </p>
+            </div>
           </div>
         </motion.div>
       </div>
